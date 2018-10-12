@@ -1,14 +1,10 @@
 fun main(args: Array<String>) {
-    mySecondFun(myFirstFun().toLong())
-    myThirdFun(1, .2)
+    val st: String? = getSt()
+    //st = null -- don't work
+    val size = st!!.length
+    println(size)
 }
 
-fun myFirstFun(): Int {
-    return 1
+fun getSt():String? {
+    return "Hello"
 }
-
-fun mySecondFun(arg: Long): Int {
-    return arg.toInt()
-}
-
-fun myThirdFun(a: Long, b: Double) = a + b
