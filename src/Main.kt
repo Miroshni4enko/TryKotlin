@@ -1,7 +1,6 @@
 fun main(args: Array<String>) {
-    var name = "Slava"
-    println("Hello $name! It's my first programme")
-    var a = 1
-    var b = 1
-    println("A + B = ${a + b}")
+    val userJava = UserJava("java_email")
+    println("1) ${userJava.email}")
+    val userKotlin = UserKotlin("kotlin_email")
+    println("2) ${userKotlin.email}")
 }
