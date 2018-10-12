@@ -1,10 +1,8 @@
 fun main(args: Array<String>) {
-    val st: String? = getSt()
-    //st = null -- don't work
-    val size = st!!.length
-    println(size)
-}
+    val person = Person("Slavik", "Mirosh", 123)
+    println(person)
 
-fun getSt():String? {
-    return "Hello"
+    val car = Car(123.4F, 213)
+    println(car.isNew)
+
 }

@@ -1,0 +1,1 @@
+class Person(var firstName: String, lastName: String, age: Int)
